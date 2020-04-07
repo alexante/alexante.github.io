@@ -334,6 +334,41 @@ h1, h2, h3, h4, h5, h6 {
 		}
 	}
 */
+.footer__bottom {
+  display: -webkit-box;
+  display: -mos-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0;
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  background-color: #9A5C3B;
+  padding: 20px 10px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0px 0px 10px 0px;
+  -webkit-box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5); }
+
+.footer__social {
+  font-size: 16px;
+  color: #fff; }
+
+.footer__rights {
+  position: absolute;
+  color: #fff;
+  font-size: 14px;
+  top: 50%;
+  transform: translate3d(0px, -50%, 0px);
+  -webkit-transform: translate3d(0px, -50%, 0px);
+  -ms-transform: translate3d(0px, -50%, 0px);
+  -o-transform: translate3d(0px, -50%, 0px);
+  -moz-transform: translate3d(0px, -50%, 0px);
+  right: 10px; }
+
 .page {
   position: absolute;
   width: 100%;
