@@ -594,6 +594,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slider__item {
+  max-width: 100%;
   margin: 10px;
   padding: 0px 0px 0px 0px;
   text-align: center;
@@ -602,6 +603,12 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   opacity: 0.5;
+}
+
+@media (max-width: 480px) {
+  .slider__item img {
+    max-width: 250px;
+  }
 }
 
 .slider__item.slick-center {
@@ -613,7 +620,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slider__text {
-  padding: 15px 0px 15px 0px;
+  -webkit-transform: translate(0px, -15px);
+          transform: translate(0px, -15px);
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 15px 0px 0px 0px;
   font-size: 16px;
   text-transform: uppercase;
 }
